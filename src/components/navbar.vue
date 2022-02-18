@@ -3,9 +3,11 @@
     <div class="w-full">
       <div class="max-w-screen-xl mx-auto px-5 py-5 xl:px-0">
         <div class="w-full flex items-center justify-between">
-          <p>Charles.</p>
+          <p class="text-blue-600 font-bold text-2xl">Charles.</p>
           <div>
-            <ul class="inline-flex space-x-8 text-base font-medium text-gray-800">
+            <ul
+              class="inline-flex space-x-8 text-base font-medium text-gray-800 select-none cursor-pointer"
+            >
               <li>About me</li>
               <li>Services</li>
               <li>Works</li>
