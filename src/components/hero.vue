@@ -21,26 +21,10 @@
           >
             Charles is a Frontend Engineer , UI Designer and Graphic Designer
           </p>
-          <div
-            class="imagetrim absolute lg:flex hidden -z-10 top-10 left-0 overflow-hidden bg-orange-200"
-          >
-            <img
-              src="../assets/african-american-student-walking-street-talking-phone.png"
-              class="w-96"
-              alt=""
-            />
-          </div>
-          <div
-            class="imagetrims hidden lg:flex absolute -z-10 bottom-10 right-0 overflow-hidden bg-rose-200"
-          >
-            <img
-              src="../assets/young-attractive-handsome-guy-feels-delighted-gladden-amazed.png"
-              class="w-96"
-              alt=""
-            />
-          </div>
+
           <button
             class="px-4 py-3 flex items-center bg-slate-800 shadow-lg mt-5 text-white text-base font-medium rounded-lg"
+            @click="github()"
           >
             <span
               ><svg
@@ -56,6 +40,16 @@
             ></span>
             View Github
           </button>
+          <img
+            src="../assets/Other 07.png"
+            class="w-96 absolute top-10 left-0 -z-10"
+            alt=""
+          />
+          <img
+            src="../assets/Other 10.png"
+            class="w-96 absolute bottom-10 right-0 -z-10"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -70,3 +64,14 @@
   border-radius: 160px 0px 160px 0px;
 }
 </style>
+
+<script>
+export default {
+  setup() {
+    const github = () => {
+      window.open("https://github.com/cnaallotey", "_blank");
+    };
+    return { github };
+  },
+};
+</script>
