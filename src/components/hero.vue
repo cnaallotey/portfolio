@@ -12,18 +12,18 @@
             Hello, i'm <span class="font-bold">Charles Allotey</span>🥰
           </p>
           <h1
-            class="text-6xl max-w-3xl mt-4 text-center md:text-6xl lg:text-7xl text-slate-900 font-extrabold"
+            class="text-6xl max-w-3xl mt-4 text-center md:text-6xl lg:text-7xl text-gray-900 font-extrabold"
           >
             Building Products, Brands & Experiences
           </h1>
           <p
-            class="text-base relative z-0 text-center font-normal md:text-base text-gray-800 mt-10"
+            class="text-base relative z-0 text-center font-normal md:text-base text-gray-800 mt-10 max-w-xl"
           >
-            Charles is a Frontend Engineer , UI Designer and Graphic Designer
+            Charles is a Frontend Engineer , UI Designer and Graphic Designer who loves to work 💵 for money but designs for passion 🥰
           </p>
 
           <button
-            class="px-4 py-3 flex items-center bg-slate-800 shadow-lg mt-5 text-white text-base font-medium rounded-lg"
+            class="px-4 py-3 flex items-center bg-gray-800 shadow-lg mt-5 text-white text-base font-medium rounded-lg"
             @click="github()"
           >
             <span
@@ -42,12 +42,12 @@
           </button>
           <img
             src="../assets/Other 07.png"
-            class="w-96 absolute top-10 left-0 -z-10"
+            class="w-96 absolute top-10 hidden -translate-x-10 lg:flex left-0 -z-10"
             alt=""
           />
           <img
             src="../assets/Other 10.png"
-            class="w-96 absolute bottom-10 right-0 -z-10"
+            class="w-96 absolute bottom-10 translate-x-10 lg:flex right-0 -z-10"
             alt=""
           />
         </div>

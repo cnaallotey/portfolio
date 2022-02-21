@@ -4,9 +4,13 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import navbar from "./components/navbar.vue";
 import hero from "./components/hero.vue";
+import experience from "./components/experience.vue";
+import myskills from "./components/myskills.vue";
 </script>
 
 <template>
   <navbar />
   <hero />
+  <experience />
+  <myskills />
 </template>
