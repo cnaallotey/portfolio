@@ -71,7 +71,7 @@
               </svg>
               <p class="text-xl font-medium z-10 text-white mt-5">Visual Design</p>
               <img
-                src="../assets/Saly-43.png"
+                src="../assets/Saly43.png"
                 class="w-56 absolute bottom-0 z-0 right-0 translate-y-20 translate-x-20 opacity-20 -rotate-12"
                 alt=""
               />

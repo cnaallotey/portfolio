@@ -61,12 +61,12 @@
             </button>
           </div>
           <img
-            src="../assets/saly-10.png"
+            src="../assets/saly10.png"
             class="absolute w-96 top-10 hidden -translate-x-10 lg:flex left-0 -z-10"
             alt=""
           />
           <img
-            src="../assets/Saly-1.png"
+            src="../assets/Saly1.png"
             class="w-96 absolute hidden bottom-10 translate-x-10 lg:flex right-0 -z-10"
             alt=""
           />
