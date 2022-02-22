@@ -27,7 +27,11 @@
                     v-for="frontend_skill in frontend_skills"
                     :key="frontend_skill"
                   >
-                    <img :src="`/assets/${frontend_skill.src}`" class="w-8 mr-2" alt="" />
+                    <img
+                      :src="`src/assets/${frontend_skill.src}`"
+                      class="w-8 mr-2"
+                      alt=""
+                    />
                     <div>
                       <p class="text-lg font-medium text-white">
                         {{ frontend_skill.skill }}
@@ -58,7 +62,11 @@
                     v-for="visual_skill in visual_skills"
                     :key="visual_skill"
                   >
-                    <img :src="`/assets/${visual_skill.src}`" class="w-8 mr-2" alt="" />
+                    <img
+                      :src="`src/assets/${visual_skill.src}`"
+                      class="w-8 mr-2"
+                      alt=""
+                    />
                     <div>
                       <p class="text-lg font-medium text-white">
                         {{ visual_skill.skill }}
