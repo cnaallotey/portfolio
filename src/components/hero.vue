@@ -5,7 +5,7 @@
         <div class="w-full relative flex py-20 lg:py-40 flex-col items-center">
           <img
             src="../assets/296.png"
-            class="w-16 rounded-full bg-orange-200"
+            class="w-16 rounded-full bg-rose-200"
             alt="emogi"
           />
           <p class="text-base font-normal md:text-xl text-gray-800 mt-10">
@@ -42,12 +42,12 @@
             View Github
           </button>
           <img
-            src="../assets/Other07.png"
-            class="w-96 absolute top-10 hidden -translate-x-10 lg:flex left-0 -z-10"
+            src="../assets/saly-10.png"
+            class="absolute w-96 top-10 hidden -translate-x-10 lg:flex left-0 -z-10"
             alt=""
           />
           <img
-            src="../assets/Other10.png"
+            src="../assets/Saly-1.png"
             class="w-96 absolute hidden bottom-10 translate-x-10 lg:flex right-0 -z-10"
             alt=""
           />
