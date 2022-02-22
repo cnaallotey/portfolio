@@ -61,7 +61,7 @@
             </button>
           </div>
           <img
-            src="../assets/saly10.png"
+            src="../assets/Saly10.png"
             class="absolute w-96 top-10 hidden -translate-x-10 lg:flex left-0 -z-10"
             alt=""
           />
