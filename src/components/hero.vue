@@ -4,7 +4,7 @@
       <div class="max-w-screen-xl mx-auto px-5 xl:px-0">
         <div class="w-full relative flex py-20 lg:py-40 flex-col items-center">
           <img
-            src="../assets/29 6.png"
+            src="../assets/296.png"
             class="w-16 rounded-full bg-orange-200"
             alt="emogi"
           />
@@ -19,7 +19,8 @@
           <p
             class="text-base relative z-0 text-center font-normal md:text-base text-gray-800 mt-10 max-w-xl"
           >
-            Charles is a Frontend Engineer , UI Designer and Graphic Designer who loves to work 💵 for money but designs for passion 🥰
+            Charles is a Frontend Engineer , UI Designer and Graphic Designer from Ghana
+            <span></span> who loves to work 💵 for money but designs for passion 🥰
           </p>
 
           <button
