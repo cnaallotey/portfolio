@@ -132,17 +132,17 @@ export default {
       { skill: "Git", sKillset: "Intermediate", src: "git.svg" },
     ]);
     const visual_skills = ref([
-      { skill: "Figma", sKillset: "Experienced", src: "src/assets/figma2.svg" },
-      { skill: "Adobe XD", sKillset: "Experienced", src: "src/assets/adobe-xd.svg" },
+      { skill: "Figma", sKillset: "Experienced", src: "/assets/figma2.svg" },
+      { skill: "Adobe XD", sKillset: "Experienced", src: "/assets/adobe-xd.svg" },
       {
         skill: "Adobe Photoshop",
         sKillset: "Experienced",
-        src: "src/assets/photoshop.svg",
+        src: "/assets/photoshop.svg",
       },
       {
         skill: "Adobe Illustrator",
         sKillset: "intermediate",
-        src: "src/assets/adobe-illustrator.svg",
+        src: "/assets/adobe-illustrator.svg",
       },
     ]);
     const other_skills = ref([
