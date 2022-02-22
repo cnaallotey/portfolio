@@ -78,7 +78,7 @@
                   </div>
                 </div>
                 <img
-                  src="../assets/Other 07.png"
+                  src="../assets/Other07.png"
                   class="absolute w-96 z-0 translate-x-36 opacity-20 translate-y-36 bottom-0 right-0"
                   alt=""
                 />
