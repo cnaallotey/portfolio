@@ -22,23 +22,60 @@
                   Frontend Engineering
                 </h2>
                 <div class="grid grid-cols-2 gap-8 mt-4 relative z-10">
-                  <div
-                    class="space-y-1 flex items-center"
-                    v-for="frontend_skill in frontend_skills"
-                    :key="frontend_skill"
-                  >
-                    <img
-                      :src="'/src/assets/' + frontend_skill.src"
-                      class="w-8 mr-2"
-                      alt=""
-                    />
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/html.svg" class="w-8 mr-2" alt="" />
                     <div>
-                      <p class="text-lg font-medium text-white">
-                        {{ frontend_skill.skill }}
-                      </p>
-                      <p class="text-sm font-normal text-slate-400">
-                        {{ frontend_skill.sKillset }}
-                      </p>
+                      <p class="text-lg font-medium text-white">HTML</p>
+                      <p class="text-sm font-normal text-slate-400">Experienced</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/css3.svg" class="w-8 mr-2" alt="" />
+                    <div>
+                      <p class="text-lg font-medium text-white">CSS</p>
+                      <p class="text-sm font-normal text-slate-400">Intermediate</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/javascript.svg" class="w-8 mr-2" alt="" />
+                    <div>
+                      <p class="text-lg font-medium text-white">Javascript</p>
+                      <p class="text-sm font-normal text-slate-400">Experienced</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/tailwind.svg" class="w-8 mr-2" alt="" />
+                    <div>
+                      <p class="text-lg font-medium text-white">Tailwind</p>
+                      <p class="text-sm font-normal text-slate-400">Experienced</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/vue.svg" class="w-8 mr-2" alt="" />
+                    <div>
+                      <p class="text-lg font-medium text-white">Vue Js</p>
+                      <p class="text-sm font-normal text-slate-400">Experienced</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/react.svg" class="w-8 mr-2" alt="" />
+                    <div>
+                      <p class="text-lg font-medium text-white">React Js</p>
+                      <p class="text-sm font-normal text-slate-400">Basic</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/node-js.svg" class="w-8 mr-2" alt="" />
+                    <div>
+                      <p class="text-lg font-medium text-white">Node Js</p>
+                      <p class="text-sm font-normal text-slate-400">Basic</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/git.svg" class="w-8 mr-2" alt="" />
+                    <div>
+                      <p class="text-lg font-medium text-white">Git</p>
+                      <p class="text-sm font-normal text-slate-400">Intermediate</p>
                     </div>
                   </div>
                 </div>
