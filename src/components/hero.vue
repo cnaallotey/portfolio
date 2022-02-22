@@ -57,7 +57,7 @@
                     clip-rule="evenodd"
                   /></svg
               ></span>
-              Download CV
+              View CV
             </button>
           </div>
           <img
