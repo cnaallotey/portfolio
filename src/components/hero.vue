@@ -42,13 +42,13 @@
             View Github
           </button>
           <img
-            src="../assets/Other 07.png"
+            src="../assets/Other07.png"
             class="w-96 absolute top-10 hidden -translate-x-10 lg:flex left-0 -z-10"
             alt=""
           />
           <img
-            src="../assets/Other 10.png"
-            class="w-96 absolute bottom-10 translate-x-10 lg:flex right-0 -z-10"
+            src="../assets/Other10.png"
+            class="w-96 absolute hidden bottom-10 translate-x-10 lg:flex right-0 -z-10"
             alt=""
           />
         </div>
