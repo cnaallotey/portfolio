@@ -62,7 +62,7 @@
                     v-for="visual_skill in visual_skills"
                     :key="visual_skill"
                   >
-                    <img src="../assets/adobe-xd.svg" class="w-8 mr-2" alt="" />
+                    <img :src="visual_skill.src" class="w-8 mr-2" alt="" />
                     <div>
                       <p class="text-lg font-medium text-white">
                         {{ visual_skill.skill }}
@@ -132,13 +132,17 @@ export default {
       { skill: "Git", sKillset: "Intermediate", src: "git.svg" },
     ]);
     const visual_skills = ref([
-      { skill: "Figma", sKillset: "Experienced", src: "figma2.svg" },
-      { skill: "Adobe XD", sKillset: "Experienced", src: "adobe-xd.svg" },
-      { skill: "Adobe Photoshop", sKillset: "Experienced", src: "photoshop.svg" },
+      { skill: "Figma", sKillset: "Experienced", src: "src/assets/figma2.svg" },
+      { skill: "Adobe XD", sKillset: "Experienced", src: "src/assets/adobe-xd.svg" },
+      {
+        skill: "Adobe Photoshop",
+        sKillset: "Experienced",
+        src: "src/assets/photoshop.svg",
+      },
       {
         skill: "Adobe Illustrator",
         sKillset: "intermediate",
-        src: "adobe-illustrator.svg",
+        src: "src/assets/adobe-illustrator.svg",
       },
     ]);
     const other_skills = ref([
