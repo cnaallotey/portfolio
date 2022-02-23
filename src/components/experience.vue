@@ -2,16 +2,18 @@
   <div>
     <div class="w-full">
       <div class="max-w-screen-xl mx-auto px-5 xl:px-0">
-        <div class="w-full relative flex pb-20 lg:pb-20 justify-between items-center">
+        <div
+          class="w-full relative flex flex-col lg:flex-row pb-20 lg:pb-20 justify-between items-center"
+        >
           <div class="flex flex-col">
-            <h2 class="text-7xl font-semibold text-blue-600 lg:text-center">02+</h2>
-            <p class="font-semibold text-xl text-slate-900 lg:text-center">
+            <h2 class="text-7xl font-semibold text-blue-600 text-center">02+</h2>
+            <p class="font-semibold text-xl text-slate-900 text-center">
               Years of Experience
             </p>
           </div>
           <div class="md:grid grid-cols-3 gap-16">
             <div
-              class="py-24 px-8 relative bg-slate-900 ring-8 ring-indigo-500 bg-gradient-to-t flex flex-col items-center rounded-2xl hover:drop-shadow-2xl overflow-hidden"
+              class="py-24 px-8 relative bg-slate-900 ring-8 ring-indigo-500 bg-gradient-to-t flex flex-col items-center rounded-2xl hover:drop-shadow-2xl overflow-hidden mt-10 lg:mt-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +36,7 @@
               />
             </div>
             <div
-              class="py-24 px-8 bg-slate-900 ring-8 ring-sky-500 bg-gradient-to-t flex flex-col items-center rounded-2xl hover:drop-shadow-2xl"
+              class="py-24 px-8 bg-slate-900 ring-8 ring-sky-500 bg-gradient-to-t flex flex-col items-center rounded-2xl hover:drop-shadow-2xl overflow-hidden mt-10 lg:mt-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +59,7 @@
               <p class="text-xl font-medium text-white mt-5">UI Design</p>
             </div>
             <div
-              class="py-24 relative px-8 bg-slate-900 ring-8 ring-rose-500 flex flex-col items-center rounded-2xl hover:drop-shadow-2xl overflow-hidden"
+              class="py-24 relative px-8 bg-slate-900 ring-8 ring-rose-500 flex flex-col items-center rounded-2xl hover:drop-shadow-2xl overflow-hidden mt-10 lg:mt-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

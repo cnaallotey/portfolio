@@ -6,7 +6,7 @@
           <p class="text-blue-600 font-bold text-2xl">Charles.</p>
           <div>
             <ul
-              class="inline-flex space-x-8 text-base font-medium text-gray-800 select-none cursor-pointer"
+              class="hidden lg:inline-flex space-x-8 text-base font-medium text-gray-800 select-none cursor-pointer"
             >
               <li>About me</li>
               <li>Services</li>
