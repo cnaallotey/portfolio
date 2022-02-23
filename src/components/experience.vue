@@ -11,7 +11,7 @@
           </div>
           <div class="md:grid grid-cols-3 gap-16">
             <div
-              class="py-24 px-8 bg-slate-900 ring-8 ring-indigo-500 bg-gradient-to-t flex flex-col items-center rounded-2xl hover:drop-shadow-2xl"
+              class="py-24 px-8 relative bg-slate-900 ring-8 ring-indigo-500 bg-gradient-to-t flex flex-col items-center rounded-2xl hover:drop-shadow-2xl overflow-hidden"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -21,12 +21,17 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="feather feather-code w-10 h-10 text-white"
+                class="feather feather-code z-10 w-10 h-10 text-white"
               >
                 <polyline points="16 18 22 12 16 6"></polyline>
                 <polyline points="8 6 2 12 8 18"></polyline>
               </svg>
-              <p class="text-xl font-medium text-white mt-5">Frontend Engineering</p>
+              <p class="text-xl font-medium z-10 text-white mt-5">Frontend Engineering</p>
+              <img
+                src="../assets/Saly37.png"
+                class="w-44 absolute bottom-0 z-0 left-0 translate-y-0 translate-x-20 opacity-20"
+                alt=""
+              />
             </div>
             <div
               class="py-24 px-8 bg-slate-900 ring-8 ring-sky-500 bg-gradient-to-t flex flex-col items-center rounded-2xl hover:drop-shadow-2xl"
