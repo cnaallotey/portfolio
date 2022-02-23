@@ -94,23 +94,36 @@
                   Visual Design
                 </h2>
                 <div class="grid grid-cols-2 gap-8 mt-4 relative z-10">
-                  <div
-                    class="space-y-1 flex items-center"
-                    v-for="visual_skill in visual_skills"
-                    :key="visual_skill"
-                  >
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/figma.svg" class="w-8 mr-2" alt="figma" />
+                    <div>
+                      <p class="text-lg font-medium text-white">Figma</p>
+                      <p class="text-sm font-normal text-slate-400">Experienced</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/adobe-xd.svg" class="w-8 mr-2" alt="figma" />
+                    <div>
+                      <p class="text-lg font-medium text-white">Adobe XD</p>
+                      <p class="text-sm font-normal text-slate-400">Experienced</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
+                    <img src="../assets/photoshop.svg" class="w-8 mr-2" alt="figma" />
+                    <div>
+                      <p class="text-lg font-medium text-white">Adobe Photoshop</p>
+                      <p class="text-sm font-normal text-slate-400">Experienced</p>
+                    </div>
+                  </div>
+                  <div class="space-y-1 flex items-center">
                     <img
-                      :src="'/src/assets/' + visual_skill.src"
+                      src="../assets/adobe-illustrator.svg"
                       class="w-8 mr-2"
-                      alt=""
+                      alt="figma"
                     />
                     <div>
-                      <p class="text-lg font-medium text-white">
-                        {{ visual_skill.skill }}
-                      </p>
-                      <p class="text-sm font-normal text-slate-400">
-                        {{ visual_skill.sKillset }}
-                      </p>
+                      <p class="text-lg font-medium text-white">Adobe Illustrator</p>
+                      <p class="text-sm font-normal text-slate-400">Intermediate</p>
                     </div>
                   </div>
                 </div>
