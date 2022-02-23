@@ -95,7 +95,7 @@
                 </h2>
                 <div class="grid grid-cols-2 gap-8 mt-4 relative z-10">
                   <div class="space-y-1 flex items-center">
-                    <img src="../assets/figma.svg" class="w-8 mr-2" alt="figma" />
+                    <img src="../assets/figma2.svg" class="w-8 mr-2" alt="figma" />
                     <div>
                       <p class="text-lg font-medium text-white">Figma</p>
                       <p class="text-sm font-normal text-slate-400">Experienced</p>
