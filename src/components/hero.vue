@@ -41,7 +41,7 @@
               ></span>
               View Github</button
             ><button
-              class="px-4 py-3 flex items-center bg-gray-800 shadow-lg mt-5 text-white text-base font-medium rounded-lg"
+              class="px-4 py-3 flex items-center bg-slate-500 shadow-lg mt-5 text-white text-base font-medium rounded-lg hover:bg-slate-600 transition-all duration-100 hover:shadow-xl"
               @click="viewcv()"
             >
               <span

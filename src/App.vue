@@ -6,6 +6,7 @@ import navbar from "./components/navbar.vue";
 import hero from "./components/hero.vue";
 import experience from "./components/experience.vue";
 import myskills from "./components/myskills.vue";
+import projects from "./components/projects.vue";
 </script>
 
 <template>
@@ -13,4 +14,5 @@ import myskills from "./components/myskills.vue";
   <hero />
   <experience />
   <myskills />
+  <projects />
 </template>

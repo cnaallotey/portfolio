@@ -81,14 +81,14 @@
                 </div>
                 <img
                   src="../assets/search.png"
-                  class="absolute w-96 z-0 translate-x-36 opacity-20 translate-y-36 bottom-0 right-0 transition-transform delay-200 transform group-hover:scale-125"
+                  class="absolute w-96 z-0 translate-x-36 opacity-20 translate-y-36 bottom-0 right-0 transition-transform duration-200 transform group-hover:scale-125"
                   alt=""
                 />
               </div>
             </div>
             <div class="w-full lg:w-1/2 mt-10 lg:mt-0">
               <div
-                class="w-full relative p-10 lg:p-16 bg-slate-900 rounded-3xl overflow-hidden shadow-md h-full group hover:shadow-2xl transition delay-200 ease-out cursor-pointer select-none"
+                class="w-full relative p-10 lg:p-16 bg-slate-900 rounded-3xl overflow-hidden shadow-md h-full group hover:shadow-2xl transition duration-200 ease-out cursor-pointer select-none"
               >
                 <h2 class="text-xl font-semibold text-center text-white">
                   Visual Design
@@ -129,7 +129,7 @@
                 </div>
                 <img
                   src="../assets/Other07.png"
-                  class="absolute w-96 z-0 translate-x-36 opacity-20 translate-y-36 bottom-0 right-0 transition-transform delay-200 transform group-hover:scale-125"
+                  class="absolute w-96 z-0 translate-x-36 opacity-20 translate-y-36 bottom-0 right-0 transition-transform duration-200 transform group-hover:scale-125"
                   alt=""
                 />
                 <h2 class="text-xl font-semibold text-center text-white mt-8">
