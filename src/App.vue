@@ -7,6 +7,7 @@ import hero from "./components/hero.vue";
 import experience from "./components/experience.vue";
 import myskills from "./components/myskills.vue";
 import projects from "./components/projects.vue";
+import contact from "./components/contact.vue";
 </script>
 
 <template>
@@ -15,4 +16,5 @@ import projects from "./components/projects.vue";
   <experience />
   <myskills />
   <projects />
+  <contact />
 </template>
