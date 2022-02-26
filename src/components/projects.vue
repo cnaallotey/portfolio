@@ -67,7 +67,7 @@
                   </div>
                 </div>
               </div>
-              <div class="h-full flex items-center">
+              <div class="lg:h-full flex items-center">
                 <div class="p-5 shadow-xl mt-10 rounded-2xl">
                   <img src="../assets/web1.png" class="w-full rounded-lg" alt="" />
                   <div class="flex space-x-2 mt-5">
@@ -117,7 +117,7 @@
                   </div>
                 </div>
               </div>
-              <div class="h-full">
+              <div class="lg:h-full">
                 <div class="p-5 shadow-xl mt-10 rounded-2xl">
                   <img src="../assets/web1.png" class="w-full rounded-lg" alt="" />
                   <div class="flex space-x-2 mt-5">
