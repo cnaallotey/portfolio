@@ -5,7 +5,7 @@
         <div class="w-full">
           <div class="flex">
             <div class="w-full md:grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-              <div class="w-full h-full flex flex-col justify-between">
+              <div class="w-full flex flex-col">
                 <div>
                   <h1
                     class="text-base text-rose-600 text-left font-semibold tracking-wide uppercase"
@@ -69,21 +69,21 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:h-full flex items-center">
+              <div class="flex lg:items-center">
                 <div class="p-5 shadow-xl mt-10 rounded-2xl">
                   <img
                     src="../assets/currencyconvert.jpg"
                     class="w-full rounded-lg"
                     alt=""
                   />
-                  <div class="flex space-x-2 mt-5">
+                  <div class="flex flex-wrap space-x-2 mt-5">
                     <p
                       class="px-2 py-1 text-white text-xs bg-indigo-500 font-normal rounded-2xl"
                     >
                       webapp
                     </p>
                     <p
-                      class="px-2 py-1 text-white text-xs bg-amber-500 font-normal rounded-2xl"
+                      class="px-2 py-1 text-white hidden lg:flex text-xs bg-amber-500 font-normal rounded-2xl"
                     >
                       HTML
                     </p>
@@ -130,7 +130,7 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:h-full">
+              <div class="h-full">
                 <div class="p-5 shadow-xl mt-10 rounded-2xl">
                   <img src="../assets/purple.jpg" class="w-full rounded-lg" alt="" />
                   <div class="flex space-x-2 mt-5">
