@@ -12,7 +12,7 @@
             Hello, i'm <span class="font-bold">Charles Allotey</span>🥰
           </p>
           <h1
-            class="text-6xl max-w-3xl mt-4 text-center md:text-6xl lg:text-7xl text-gray-900 font-extrabold"
+            class="text-4xl md:text-6xl max-w-3xl mt-4 text-center md:text-6xl lg:text-7xl text-gray-900 font-extrabold"
           >
             Building Products, Brands & Experiences
           </h1>
