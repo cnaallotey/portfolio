@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="w-full bg-contact-image bg-cover">
-      <div class="w-full bg-slate-900 bg-opacity-90">
+      <div class="w-full bg-slate-900 bg-opacity-95">
         <div class="max-w-screen-xl mx-auto px-5 xl:px-0 py-40">
           <div class="max-w-screen-md mx-auto">
             <h1
@@ -79,7 +79,7 @@
                 <p class="text-base text-white font-normal mt-2">@adotey_</p>
               </div>
             </div>
-            <div class="w-full bg-white rounded-2xl shadow-lg p-8 mt-5">
+            <div class="w-full bg-white rounded-2xl shadow-lg p-5 lg:p-8 mt-5">
               <form action="submit" class="w-full">
                 <div class="w-full lg:flex">
                   <div class="flex w-full lg:w-1/2 h-full flex-col lg:mr-8">
@@ -104,7 +104,7 @@
                       class="rounded-lg border-gray-200"
                     />
                   </div>
-                  <div class="w-full lg:w-1/2 flex flex-col">
+                  <div class="w-full lg:w-1/2 flex flex-col mt-4 lg:mt-0">
                     <label for="message" class="font-sm mb-1">Your Message</label
                     ><textarea
                       name="message"
@@ -128,13 +128,15 @@
             </div>
           </div>
           <div
-            class="w-full flex justify-between pt-20 mt-20 border-t -mb-20 border-slate-800"
+            class="w-full lg:flex justify-between pt-20 mt-20 border-t -mb-0 lg:-mb-20 border-slate-800"
           >
             <p class="font-normal text-base text-white">
               2022 Uicharles, All Rights Reserved
             </p>
-            <p class="font-normal text-base text-white">charlesallotey1995@gmail.com</p>
-            <div class="flex items-center space-x-4">
+            <p class="font-normal text-base text-white mt-5 lg:mt-0">
+              charlesallotey1995@gmail.com
+            </p>
+            <div class="flex items-center justify-start mt-5 lg:mt-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
