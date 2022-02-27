@@ -16,7 +16,7 @@
           <div class="flex flex-col lg:flex-row lg:space-x-10 mt-4">
             <div class="w-full lg:w-1/2">
               <div
-                class="w-full relative p-10 lg:p-16 bg-slate-900 rounded-3xl overflow-hidden shadow-md h-full group hover:shadow-2xl transition delay-200 ease-out cursor-pointer select-none"
+                class="w-full relative p-8 lg:p-16 bg-slate-900 rounded-3xl overflow-hidden shadow-md h-full group hover:shadow-2xl transition delay-200 ease-out cursor-pointer select-none"
               >
                 <h2 class="text-xl font-semibold text-center text-white">
                   Frontend Engineering
@@ -88,7 +88,7 @@
             </div>
             <div class="w-full lg:w-1/2 mt-10 lg:mt-0">
               <div
-                class="w-full relative p-10 lg:p-16 bg-slate-900 rounded-3xl overflow-hidden shadow-md h-full group hover:shadow-2xl transition duration-200 ease-out cursor-pointer select-none"
+                class="w-full relative p-8 lg:p-16 bg-slate-900 rounded-3xl overflow-hidden shadow-md h-full group hover:shadow-2xl transition duration-200 ease-out cursor-pointer select-none"
               >
                 <h2 class="text-xl font-semibold text-center text-white">
                   Visual Design
