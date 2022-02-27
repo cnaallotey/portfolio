@@ -16,5 +16,6 @@ import contact from "./components/contact.vue";
   <experience />
   <myskills />
   <projects />
+
   <contact />
 </template>

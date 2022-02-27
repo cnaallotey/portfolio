@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="w-full bg-slate-900">
-      <div class="w-full bg-slate-900">
+    <div class="w-full bg-contact-image bg-cover">
+      <div class="w-full bg-slate-900 bg-opacity-90">
         <div class="max-w-screen-xl mx-auto px-5 xl:px-0 py-40">
           <div class="max-w-screen-md mx-auto">
             <h1
@@ -125,6 +125,33 @@
                   </button>
                 </div>
               </form>
+            </div>
+          </div>
+          <div
+            class="w-full flex justify-between pt-20 mt-20 border-t -mb-20 border-slate-800"
+          >
+            <p class="font-normal text-base text-white">
+              2022 Uicharles, All Rights Reserved
+            </p>
+            <p class="font-normal text-base text-white">charlesallotey1995@gmail.com</p>
+            <div class="flex items-center space-x-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-dribbble w-16 text-white"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path
+                  d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"
+                ></path>
+              </svg>
             </div>
           </div>
         </div>
