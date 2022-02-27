@@ -52,7 +52,7 @@
               <form action="submit" class="w-full" @submit.prevent="contact()">
                 <div class="w-full lg:flex px-5 lg:px-8">
                   <div class="flex w-full lg:w-1/2 h-full flex-col lg:mr-8">
-                    <label for="name" class="font-sm mb-1">Your name</label
+                    <label for="name" class="text-sm text-gray-700 mb-1">Your name</label
                     ><input
                       type="text"
                       name="name"
@@ -61,7 +61,8 @@
                       v-model="contact_form.name"
                       required
                     />
-                    <label for="email" class="font-sm mb-1 mt-4">Your email</label
+                    <label for="email" class="text-sm text-gray-700 mb-1 mt-4"
+                      >Your email</label
                     ><input
                       type="email"
                       name="email"
@@ -70,7 +71,8 @@
                       v-model="contact_form.email"
                       required
                     />
-                    <label for="Phone" class="font-sm mb-1 mt-4">Your phone number</label
+                    <label for="Phone" class="text-sm text-gray-700 mb-1 mt-4"
+                      >Your phone number</label
                     ><input
                       type="tel"
                       name="contact"
@@ -80,7 +82,8 @@
                     />
                   </div>
                   <div class="w-full lg:w-1/2 flex flex-col mt-4 lg:mt-0">
-                    <label for="message" class="font-sm mb-1">Your Message</label
+                    <label for="message" class="text-sm text-gray-700 mb-1"
+                      >Your Message</label
                     ><textarea
                       name="message"
                       id=""
