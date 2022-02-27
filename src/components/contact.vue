@@ -14,27 +14,31 @@
             >
               Get in touch!
             </p>
-            <div class="flex justify-around mt-4 w-fulll mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4 w-full">
               <div
                 class="p-8 flex flex-col items-center group hover:bg-rose-500 hover:shadow-2xl rounded-2xl transition-all select-none cursor-pointer duration-200"
                 title="Twitter"
               >
                 <img src="../assets/twit.svg" class="w-12" alt="" />
-                <p class="text-base text-white font-normal mt-2">@adotey_</p>
+                <p class="text-base text-white font-normal mt-2 text-center">@adotey_</p>
               </div>
               <div
                 class="p-8 flex flex-col items-center group hover:bg-rose-500 hover:shadow-2xl rounded-2xl transition-all select-none cursor-pointer duration-200"
                 title="LinkedIn"
               >
                 <img src="../assets/linkedin.svg" class="w-12" alt="" />
-                <p class="text-base text-white font-normal mt-2">Charles Allotey</p>
+                <p class="text-base text-white font-normal mt-2 text-center">
+                  Charles Allotey
+                </p>
               </div>
               <div
-                class="p-8 flex flex-col items-center group hover:bg-rose-500 hover:shadow-2xl rounded-2xl transition-all select-none cursor-pointer duration-200 skew-x-0"
+                class="p-8 col-span-2 md:col-span-1 flex flex-col items-center group hover:bg-rose-500 hover:shadow-2xl rounded-2xl transition-all select-none cursor-pointer duration-200 skew-x-0"
                 title="Behance"
               >
                 <img src="../assets/behance.svg" class="w-12" alt="" />
-                <p class="text-base text-white font-normal mt-2">Charles Allotey</p>
+                <p class="text-base text-white font-normal mt-2 text-center">
+                  Charles Allotey
+                </p>
               </div>
             </div>
             <div class="w-full bg-white rounded-2xl shadow-lg p-5 lg:p-8 mt-5">
