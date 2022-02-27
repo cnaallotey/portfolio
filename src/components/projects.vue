@@ -46,7 +46,7 @@
                     Plaza Website full
                   </p>
                   <p
-                    class="text-lg font-normal text-slate-500 leading-tight tracking-wide mt-2"
+                    class="text-lg font-normal hidden text-slate-500 leading-tight tracking-wide mt-2"
                   >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
                     ratione quibusdam modi soluta aperiam nesciunt. Rem, iste ratione
@@ -107,7 +107,7 @@
                     Currency Rates and Conversion Webapp
                   </p>
                   <p
-                    class="text-lg font-normal text-slate-500 leading-tight tracking-wide mt-2"
+                    class="text-lg font-normal text-slate-500 hidden leading-tight tracking-wide mt-2"
                   >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
                     ratione quibusdam modi soluta aperiam nesciunt. Rem, iste ratione
@@ -159,7 +159,7 @@
                     Paas Landing Page
                   </p>
                   <p
-                    class="text-lg font-normal text-slate-500 leading-tight tracking-wide mt-2"
+                    class="text-lg font-normal text-slate-500 hidden leading-tight tracking-wide mt-2"
                   >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
                     ratione quibusdam modi soluta aperiam nesciunt. Rem, iste ratione
