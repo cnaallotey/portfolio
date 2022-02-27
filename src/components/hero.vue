@@ -12,7 +12,7 @@
             Hello, i'm <span class="font-bold">Charles Allotey</span>🥰
           </p>
           <h1
-            class="text-4xl md:text-6xl max-w-3xl mt-4 text-center md:text-6xl lg:text-7xl text-gray-900 font-extrabold"
+            class="text-4xl md:text-6xl max-w-3xl mt-4 text-center lg:text-7xl text-gray-900 font-extrabold"
           >
             Building Products, Brands & Experiences
           </h1>
@@ -61,12 +61,12 @@
             </button>
           </div>
           <img
-            src="../assets/Saly10.png"
+            src="../assets/heroimage1.png"
             class="absolute w-96 top-10 hidden -translate-x-10 lg:flex left-0 -z-10"
             alt=""
           />
           <img
-            src="../assets/Saly1.png"
+            src="../assets/heroimage2.png"
             class="w-96 absolute hidden bottom-10 translate-x-10 lg:flex right-0 -z-10"
             alt=""
           />

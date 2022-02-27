@@ -80,8 +80,8 @@
                   </div>
                 </div>
                 <img
-                  src="../assets/search.png"
-                  class="absolute w-96 z-0 translate-x-36 opacity-20 translate-y-36 bottom-0 right-0 transition-transform duration-200 transform group-hover:scale-125"
+                  src="../assets/skillimage1.png"
+                  class="absolute w-96 z-0 -translate-x-36 opacity-20 translate-y-36 bottom-0 left-0 transition-transform duration-200 transform group-hover:scale-125"
                   alt=""
                 />
               </div>
@@ -128,8 +128,8 @@
                   </div>
                 </div>
                 <img
-                  src="../assets/Other07.png"
-                  class="absolute w-96 z-0 translate-x-36 opacity-20 translate-y-36 bottom-0 right-0 transition-transform duration-200 transform group-hover:scale-125"
+                  src="../assets/skillimage2.png"
+                  class="absolute w-96 z-0 -translate-x-36 opacity-20 translate-y-36 bottom-0 left-0 transition-transform duration-200 transform group-hover:scale-125 -sc"
                   alt=""
                 />
                 <h2 class="text-xl font-semibold text-center text-white mt-8">

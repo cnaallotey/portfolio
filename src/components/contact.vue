@@ -80,26 +80,32 @@
               </div>
             </div>
             <div class="w-full bg-white rounded-2xl shadow-lg p-5 lg:p-8 mt-5">
-              <form action="submit" class="w-full">
+              <form action="submit" class="w-full" @submit.prevent="contact()">
                 <div class="w-full lg:flex">
                   <div class="flex w-full lg:w-1/2 h-full flex-col lg:mr-8">
                     <label for="name" class="font-sm mb-1">Your name</label
                     ><input
                       type="text"
+                      name="name"
                       placeholder="eg. John Doe"
                       class="rounded-lg border-gray-200"
+                      v-model="contact_form.name"
                       required
                     />
                     <label for="email" class="font-sm mb-1 mt-4">Your email</label
                     ><input
                       type="email"
+                      name="email"
                       placeholder="eg. you@example.com"
                       class="rounded-lg border-gray-200"
+                      v-model="contact_form.email"
                       required
                     />
                     <label for="Phone" class="font-sm mb-1 mt-4">Your phone number</label
                     ><input
                       type="tel"
+                      name="contact"
+                      v-model="contact_form.contact"
                       placeholder=""
                       class="rounded-lg border-gray-200"
                     />
@@ -112,6 +118,7 @@
                       cols="30"
                       rows="8"
                       class="rounded-lg border-0 bg-gray-100"
+                      v-model="contact_form.message"
                       required
                     ></textarea>
                   </div>
@@ -161,3 +168,24 @@
     </div>
   </div>
 </template>
+
+<script>
+import { ref } from "@vue/reactivity";
+import axios from "axios";
+
+export default {
+  setup() {
+    const contact_form = ref({});
+
+    const contact = async () => {
+      //console.log(contact_form.value);
+      const response = await axios.post(
+        "https://getform.io/f/84ccb698-eb86-493d-b43a-37086b7d8109",
+        contact_form.value
+      );
+      console.log(response);
+    };
+    return { contact_form, contact };
+  },
+};
+</script>
