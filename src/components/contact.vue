@@ -41,9 +41,16 @@
                 </p>
               </div>
             </div>
-            <div class="w-full bg-white rounded-2xl shadow-lg p-5 lg:p-8 mt-5">
+            <div
+              class="w-full bg-white rounded-2xl shadow-lg pt-8 lg:pt-8 mt-5 overflow-hidden"
+            >
+              <h3
+                class="text-2xl font-semibold text-gray-900 mb-5 px-8 text-center lg:text-left"
+              >
+                Contact form
+              </h3>
               <form action="submit" class="w-full" @submit.prevent="contact()">
-                <div class="w-full lg:flex">
+                <div class="w-full lg:flex px-5 lg:px-8">
                   <div class="flex w-full lg:w-1/2 h-full flex-col lg:mr-8">
                     <label for="name" class="font-sm mb-1">Your name</label
                     ><input
@@ -88,7 +95,7 @@
                 <div class="w-full flex justify-center">
                   <button
                     type="submit"
-                    class="px-5 py-3 text-base font-medium text-white rounded-lg bg-rose-500 hover:bg-rose-600 hover:shadow-xl transition-all duration-200 mx-auto mt-5"
+                    class="w-full py-5 text-base font-medium text-white bg-rose-500 hover:bg-rose-600 hover:shadow-xl transition-all duration-200 mx-auto mt-8"
                   >
                     Submit
                   </button>
