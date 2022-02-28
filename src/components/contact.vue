@@ -18,6 +18,7 @@
               <div
                 class="p-8 flex flex-col items-center group hover:bg-rose-500 hover:shadow-2xl rounded-2xl transition-all select-none cursor-pointer duration-200"
                 title="Twitter"
+                @click="goto('https://twitter.com/adotey_')"
               >
                 <img src="../assets/twit.svg" class="w-12" alt="" />
                 <p class="text-base text-white font-normal mt-2 text-center">@adotey_</p>
@@ -25,6 +26,7 @@
               <div
                 class="p-8 flex flex-col items-center group hover:bg-rose-500 hover:shadow-2xl rounded-2xl transition-all select-none cursor-pointer duration-200"
                 title="LinkedIn"
+                @click="goto('https://www.linkedin.com/in/charles-allotey-633338116/')"
               >
                 <img src="../assets/linkedin.svg" class="w-12" alt="" />
                 <p class="text-base text-white font-normal mt-2 text-center">
