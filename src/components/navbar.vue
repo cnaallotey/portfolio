@@ -18,6 +18,7 @@
           </div>
           <button
             class="py-3 px-4 text-base font-medium text-white bg-rose-500 hover:bg-rose-600 rounded-md shadow-lg"
+            @click="scroll()"
           >
             Contact me
           </button>
@@ -26,3 +27,14 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  setup() {
+    const scroll = () => {
+      window.scrollTo({ top: 5000, behavior: "smooth" });
+    };
+    return { scroll };
+  },
+};
+</script>
