@@ -177,9 +177,8 @@ export default {
           }, 5000);
         })
         .catch((err) => console.log(err));
-
     };
-     const goto = (webpage) => {
+    const goto = (webpage) => {
       window.open(webpage, "_blank");
     };
     return { contact_form, contact, success, goto };
