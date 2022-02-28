@@ -50,7 +50,7 @@
         <div>
           <div class="text-sm pb-2">
             Message sent successfully
-            <span class="float-right">
+            <span class="float-right hidden">
               <svg
                 class="fill-current text-gray-600"
                 xmlns="http://www.w3.org/2000/svg"
