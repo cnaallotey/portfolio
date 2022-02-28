@@ -49,7 +49,12 @@
               >
                 Contact form
               </h3>
-              <form action="submit" class="w-full" @submit.prevent="contact()">
+              <form
+                action="submit"
+                id="contact_form"
+                class="w-full"
+                @submit.prevent="contact()"
+              >
                 <div class="w-full lg:flex px-5 lg:px-8">
                   <div class="flex w-full lg:w-1/2 h-full flex-col lg:mr-8">
                     <label for="name" class="text-sm text-gray-700 mb-1"
@@ -136,6 +141,7 @@
               </svg>
             </div>
           </div>
+          <success />
         </div>
       </div>
     </div>
@@ -145,18 +151,25 @@
 <script>
 import { ref } from "@vue/reactivity";
 import axios from "axios";
+import success from "../components/success.vue";
 
 export default {
+  components: { success },
   setup() {
     const contact_form = ref({});
 
-    const contact = async () => {
+    const contact = () => {
       //console.log(contact_form.value);
-      const response = await axios.post(
-        "https://getform.io/f/84ccb698-eb86-493d-b43a-37086b7d8109",
-        contact_form.value
-      );
-      console.log(response);
+      axios
+        .post(
+          "https://getform.io/f/84ccb698-eb86-493d-b43a-37086b7d8109",
+          contact_form.value
+        )
+        .then((Response) => {
+          console.log(Response);
+          document.getElementById("contact_form").reset();
+        })
+        .catch((err) => console.log(err));
     };
     return { contact_form, contact };
   },
