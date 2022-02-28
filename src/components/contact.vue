@@ -141,7 +141,7 @@
               </svg>
             </div>
           </div>
-          <success />
+          <success v-if="success" />
         </div>
       </div>
     </div>
@@ -157,6 +157,7 @@ export default {
   components: { success },
   setup() {
     const contact_form = ref({});
+    const success = ref(false);
 
     const contact = () => {
       //console.log(contact_form.value);
@@ -167,11 +168,15 @@ export default {
         )
         .then((Response) => {
           console.log(Response);
-          document.getElementById("contact_form").reset();
+          contact_form.value = {};
+          success.value = true;
+          setTimeout(() => {
+            success.value = false;
+          }, 5000);
         })
         .catch((err) => console.log(err));
     };
-    return { contact_form, contact };
+    return { contact_form, contact, success };
   },
 };
 </script>

@@ -31,7 +31,7 @@
 
     -->
       <div
-        class="shadow-lg rounded-lg bg-white max-w-sm m-8 absolute right-0 p-4 notification-box flex"
+        class="shadow-lg rounded-lg bg-white max-w-sm m-5 lg:m-8 absolute right-0 p-4 notification-box flex"
       >
         <div class="pr-2">
           <svg
@@ -49,7 +49,7 @@
         </div>
         <div>
           <div class="text-sm pb-2">
-            Notification Title
+            Message sent successfully
             <span class="float-right">
               <svg
                 class="fill-current text-gray-600"
@@ -66,8 +66,7 @@
             </span>
           </div>
           <div class="text-sm text-gray-600 tracking-tight">
-            I will never close automatically. This is a purposely very very long
-            description that has many many characters and words.
+            Thank you for contacting me. I will get back to you as soon as possible.
           </div>
         </div>
       </div>
