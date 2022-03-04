@@ -23,11 +23,13 @@
             >
               Contact me
             </button>
-            <div class="ml-4 flex flex-col items-center border-l-2 border-slate-500 pl-4">
+            <div
+              class="ml-4 hidden lg:flex flex-col items-center border-l-2 border-slate-500 pl-4"
+            >
               <img src="../assets/whatsapp.svg" class="w-4 h-4" alt="whatsapp" />
               <p class="font-normal text-sm text-slate-900">+233-50-655-7295</p>
             </div>
-            <div class="ml-4 flex flex-col items-center">
+            <div class="ml-4 hidden lg:flex flex-col items-center">
               <img src="../assets/gmail.svg" class="w-4 h-4" alt="whatsapp" />
               <p class="font-normal text-sm text-slate-900">
                 charlesallotey1995@gmail.com
