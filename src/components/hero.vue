@@ -95,7 +95,7 @@ export default {
     };
     const viewcv = () => {
       window.open(
-        "https://drive.google.com/file/d/1v8vCtF1dhUvXhWqo-lxloVSFLvvFyGyX/view?usp=sharing",
+        "https://drive.google.com/file/d/1Gnz-cvDa_7uY-w4Jof8JP6TquLSe-EqZ/view?usp=sharing",
         "_blank"
       );
     };
