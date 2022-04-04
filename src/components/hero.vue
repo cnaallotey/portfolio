@@ -100,7 +100,7 @@ export default {
       );
     };
     const downloadCv = () => {
-      window.open("/src/assets/CV.pdf", "Download");
+      window.open("CV.pdf", "Download");
     };
 
     return { github, viewcv, downloadCv };
